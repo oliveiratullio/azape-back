@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import routes from './routes.js';
 
-import './database'
+import database from './database/index.js';
 
 class App {
   constructor() {
