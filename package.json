@@ -8,23 +8,23 @@
     "dev": "nodemon",
     "dev:debug": "nodemon --inspect",
     "build": "sucrase ./src -d ./dist --transforms imports",
-    "start": "node dist/server.js"
+    "start": "node src/server.js"
   },
   "dependencies": {
     "@pozible/meteor-sha": "^1.0.1",
-    "axios": "^0.19.2",
+    "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "crypto-random-string": "^3.2.0",
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.2",
     "moment": "^2.29.1",
-    "mongoose": "^5.9.20"
+    "mongoose": "^8.10.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4",
+    "nodemon": "^2.0.22",
     "sucrase": "^3.15.0"
   }
 }
